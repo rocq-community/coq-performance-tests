@@ -1,0 +1,40 @@
+Params: 0-univ-count= 32 , 1-n= 5
+Tactic call exact-regression-linear ran for 0. secs (0.u,0.s) (success)
+Tactic call abstract-regression-quadratic ran for 0.002 secs (0.002u,0.s) (success)
+Tactic call close-abstract-regression-quadratic ran for 0.001 secs (0.001u,0.s)
+Params: 0-univ-count= 64 , 1-n= 6
+Tactic call exact-regression-linear ran for 0.001 secs (0.u,0.s) (success)
+Tactic call abstract-regression-quadratic ran for 0.004 secs (0.003u,0.s) (success)
+Tactic call close-abstract-regression-quadratic ran for 0.002 secs (0.002u,0.s)
+Params: 0-univ-count= 128 , 1-n= 7
+Tactic call exact-regression-linear ran for 0.003 secs (0.002u,0.s) (success)
+Tactic call abstract-regression-quadratic ran for 0.041 secs (0.036u,0.004s) (success)
+Tactic call close-abstract-regression-quadratic ran for 0.037 secs (0.033u,0.003s)
+Params: 0-univ-count= 256 , 1-n= 8
+Tactic call exact-regression-linear ran for 0.005 secs (0.005u,0.s) (success)
+Tactic call abstract-regression-quadratic ran for 0.031 secs (0.031u,0.s) (success)
+Tactic call close-abstract-regression-quadratic ran for 0.025 secs (0.025u,0.s)
+Params: 0-univ-count= 512 , 1-n= 9
+Tactic call exact-regression-linear ran for 0.011 secs (0.011u,0.s) (success)
+Tactic call abstract-regression-quadratic ran for 0.037 secs (0.037u,0.s) (success)
+Tactic call close-abstract-regression-quadratic ran for 0.025 secs (0.025u,0.s)
+Params: 0-univ-count= 1024 , 1-n= 10
+Tactic call exact-regression-linear ran for 0.024 secs (0.024u,0.s) (success)
+Tactic call abstract-regression-quadratic ran for 0.078 secs (0.078u,0.s) (success)
+Tactic call close-abstract-regression-quadratic ran for 0.054 secs (0.054u,0.s)
+Params: 0-univ-count= 2048 , 1-n= 11
+Tactic call exact-regression-linear ran for 0.052 secs (0.052u,0.s) (success)
+Tactic call abstract-regression-quadratic ran for 0.196 secs (0.184u,0.011s) (success)
+Tactic call close-abstract-regression-quadratic ran for 0.143 secs (0.131u,0.011s)
+Params: 0-univ-count= 4096 , 1-n= 12
+Tactic call exact-regression-linear ran for 0.126 secs (0.123u,0.002s) (success)
+Tactic call abstract-regression-quadratic ran for 0.474 secs (0.468u,0.006s) (success)
+Tactic call close-abstract-regression-quadratic ran for 0.348 secs (0.345u,0.003s)
+Params: 0-univ-count= 8192 , 1-n= 13
+Tactic call exact-regression-linear ran for 0.288 secs (0.284u,0.003s) (success)
+Tactic call abstract-regression-quadratic ran for 0.958 secs (0.944u,0.013s) (success)
+Tactic call close-abstract-regression-quadratic ran for 0.669 secs (0.659u,0.01s)
+Params: 0-univ-count= 16384 , 1-n= 14
+Tactic call exact-regression-linear ran for 0.689 secs (0.686u,0.003s) (success)
+Tactic call abstract-regression-quadratic ran for 2.113 secs (2.107u,0.005s) (success)
+Tactic call close-abstract-regression-quadratic ran for 1.424 secs (1.421u,0.002s)

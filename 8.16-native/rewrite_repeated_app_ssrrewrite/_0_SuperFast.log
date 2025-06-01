@@ -1,0 +1,40 @@
+Params: n= 50
+Tactic call ssr-rewrite!-regression-quadratic ran for 0.015 secs (0.012u,0.002s) (success)
+Tactic call ssr-rewrite?-noop-regression-linear ran for 0. secs (0.u,0.s) (success)
+Tactic call abstract-regression-quadratic ran for 0.028 secs (0.019u,0.008s) (success)
+Tactic call close-abstract-regression-quadratic ran for 0.012 secs (0.006u,0.005s)
+Params: n= 100
+Tactic call ssr-rewrite!-regression-quadratic ran for 0.077 secs (0.07u,0.006s) (success)
+Tactic call ssr-rewrite?-noop-regression-linear ran for 0. secs (0.u,0.s) (success)
+Tactic call abstract-regression-quadratic ran for 0.129 secs (0.121u,0.007s) (success)
+Tactic call close-abstract-regression-quadratic ran for 0.051 secs (0.05u,0.s)
+Params: n= 150
+Tactic call ssr-rewrite!-regression-quadratic ran for 0.101 secs (0.1u,0.s) (success)
+Tactic call ssr-rewrite?-noop-regression-linear ran for 0. secs (0.u,0.s) (success)
+Tactic call abstract-regression-quadratic ran for 0.194 secs (0.192u,0.002s) (success)
+Tactic call close-abstract-regression-quadratic ran for 0.091 secs (0.09u,0.s)
+Params: n= 200
+Tactic call ssr-rewrite!-regression-quadratic ran for 0.262 secs (0.262u,0.s) (success)
+Tactic call ssr-rewrite?-noop-regression-linear ran for 0. secs (0.u,0.s) (success)
+Tactic call abstract-regression-quadratic ran for 0.411 secs (0.409u,0.001s) (success)
+Tactic call close-abstract-regression-quadratic ran for 0.148 secs (0.146u,0.001s)
+Params: n= 250
+Tactic call ssr-rewrite!-regression-quadratic ran for 0.348 secs (0.347u,0.s) (success)
+Tactic call ssr-rewrite?-noop-regression-linear ran for 0. secs (0.u,0.s) (success)
+Tactic call abstract-regression-quadratic ran for 0.609 secs (0.604u,0.004s) (success)
+Tactic call close-abstract-regression-quadratic ran for 0.26 secs (0.256u,0.003s)
+Params: n= 300
+Tactic call ssr-rewrite!-regression-quadratic ran for 0.461 secs (0.461u,0.s) (success)
+Tactic call ssr-rewrite?-noop-regression-linear ran for 0. secs (0.u,0.s) (success)
+Tactic call abstract-regression-quadratic ran for 0.796 secs (0.792u,0.003s) (success)
+Tactic call close-abstract-regression-quadratic ran for 0.333 secs (0.329u,0.003s)
+Params: n= 350
+Tactic call ssr-rewrite!-regression-quadratic ran for 0.526 secs (0.523u,0.003s) (success)
+Tactic call ssr-rewrite?-noop-regression-linear ran for 0. secs (0.u,0.s) (success)
+Tactic call abstract-regression-quadratic ran for 0.972 secs (0.964u,0.007s) (success)
+Tactic call close-abstract-regression-quadratic ran for 0.445 secs (0.44u,0.004s)
+Params: n= 400
+Tactic call ssr-rewrite!-regression-quadratic ran for 0.736 secs (0.733u,0.002s) (success)
+Tactic call ssr-rewrite?-noop-regression-linear ran for 0. secs (0.u,0.s) (success)
+Tactic call abstract-regression-quadratic ran for 1.321 secs (1.315u,0.006s) (success)
+Tactic call close-abstract-regression-quadratic ran for 0.583 secs (0.58u,0.003s)

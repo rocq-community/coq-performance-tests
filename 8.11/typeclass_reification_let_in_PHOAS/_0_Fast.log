@@ -1,0 +1,72 @@
+Params: n= 110
+Tactic call reify-regression-cubic ran for 1.572 secs (1.555u,0.016s)
+Tactic call abstract-regression-linear ran for 0.005 secs (0.005u,0.s) (success)
+Params: n= 120
+Tactic call reify-regression-cubic ran for 1.923 secs (1.913u,0.01s)
+Tactic call abstract-regression-linear ran for 0.006 secs (0.006u,0.s) (success)
+Params: n= 130
+Tactic call reify-regression-cubic ran for 2.312 secs (2.304u,0.007s)
+Tactic call abstract-regression-linear ran for 0.006 secs (0.006u,0.s) (success)
+Params: n= 140
+Tactic call reify-regression-cubic ran for 2.787 secs (2.785u,0.001s)
+Tactic call abstract-regression-linear ran for 0.007 secs (0.007u,0.s) (success)
+Params: n= 150
+Tactic call reify-regression-cubic ran for 3.261 secs (3.26u,0.s)
+Tactic call abstract-regression-linear ran for 0.007 secs (0.007u,0.s) (success)
+Params: n= 160
+Tactic call reify-regression-cubic ran for 3.948 secs (3.943u,0.003s)
+Tactic call abstract-regression-linear ran for 0.008 secs (0.008u,0.s) (success)
+Params: n= 170
+Tactic call reify-regression-cubic ran for 4.489 secs (4.487u,0.001s)
+Tactic call abstract-regression-linear ran for 0.008 secs (0.008u,0.s) (success)
+Params: n= 180
+Tactic call reify-regression-cubic ran for 5.309 secs (5.309u,0.s)
+Tactic call abstract-regression-linear ran for 0.009 secs (0.009u,0.s) (success)
+Params: n= 190
+Tactic call reify-regression-cubic ran for 6.02 secs (6.014u,0.003s)
+Tactic call abstract-regression-linear ran for 0.01 secs (0.01u,0.s) (success)
+Params: n= 200
+Tactic call reify-regression-cubic ran for 6.883 secs (6.876u,0.005s)
+Tactic call abstract-regression-linear ran for 0.01 secs (0.01u,0.s) (success)
+Params: n= 210
+Tactic call reify-regression-cubic ran for 7.805 secs (7.804u,0.s)
+Tactic call abstract-regression-linear ran for 0.011 secs (0.011u,0.s) (success)
+Params: n= 220
+Tactic call reify-regression-cubic ran for 8.845 secs (8.843u,0.s)
+Tactic call abstract-regression-linear ran for 0.011 secs (0.011u,0.s) (success)
+Params: n= 230
+Tactic call reify-regression-cubic ran for 10.017 secs (10.016u,0.s)
+Tactic call abstract-regression-linear ran for 0.012 secs (0.012u,0.s) (success)
+Params: n= 240
+Tactic call reify-regression-cubic ran for 11.096 secs (11.088u,0.005s)
+Tactic call abstract-regression-linear ran for 0.012 secs (0.012u,0.s) (success)
+Params: n= 250
+Tactic call reify-regression-cubic ran for 12.572 secs (12.568u,0.s)
+Tactic call abstract-regression-linear ran for 0.012 secs (0.012u,0.s) (success)
+Params: n= 260
+Tactic call reify-regression-cubic ran for 13.89 secs (13.889u,0.s)
+Tactic call abstract-regression-linear ran for 0.013 secs (0.013u,0.s) (success)
+Params: n= 270
+Tactic call reify-regression-cubic ran for 15.424 secs (15.421u,0.s)
+Tactic call abstract-regression-linear ran for 0.013 secs (0.013u,0.s) (success)
+Params: n= 280
+Tactic call reify-regression-cubic ran for 17.11 secs (17.101u,0.006s)
+Tactic call abstract-regression-linear ran for 0.014 secs (0.014u,0.s) (success)
+Params: n= 290
+Tactic call reify-regression-cubic ran for 18.659 secs (18.656u,0.s)
+Tactic call abstract-regression-linear ran for 0.014 secs (0.014u,0.s) (success)
+Params: n= 300
+Tactic call reify-regression-cubic ran for 20.68 secs (20.676u,0.001s)
+Tactic call abstract-regression-linear ran for 0.015 secs (0.015u,0.s) (success)
+Params: n= 350
+Tactic call reify-regression-cubic ran for 31.716 secs (31.701u,0.011s)
+Tactic call abstract-regression-linear ran for 0.022 secs (0.022u,0.s) (success)
+Params: n= 400
+Tactic call reify-regression-cubic ran for 46.035 secs (46.008u,0.021s)
+Tactic call abstract-regression-linear ran for 0.02 secs (0.02u,0.s) (success)
+Params: n= 450
+Tactic call reify-regression-cubic ran for 64.043 secs (64.02u,0.014s)
+Tactic call abstract-regression-linear ran for 0.022 secs (0.022u,0.s) (success)
+Params: n= 500
+Tactic call reify-regression-cubic ran for 86.279 secs (86.251u,0.016s)
+Tactic call abstract-regression-linear ran for 0.037 secs (0.037u,0.s) (success)
