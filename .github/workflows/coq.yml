@@ -27,7 +27,7 @@ jobs:
       cancel-in-progress: true
 
     steps:
-    - uses: actions/checkout@v4
+    - uses: actions/checkout@v5
     - name: echo build params
       run: |
         echo "::group::lscpu"
@@ -150,7 +150,7 @@ jobs:
 
     steps:
       - name: checkout repo (only required because of deploy step) # https://github.com/JamesIves/github-pages-deploy-action/issues/335
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
       - name: Download a Build Artifact
         uses: actions/download-artifact@v4
         with:
@@ -172,7 +172,7 @@ jobs:
 
     steps:
       - name: checkout repo (only required because of deploy step) # https://github.com/JamesIves/github-pages-deploy-action/issues/335
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
       - name: Install SSH Client 🔑
         uses: webfactory/ssh-agent@v0.9.1
         with:
