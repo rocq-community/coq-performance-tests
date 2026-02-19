@@ -966,31 +966,29 @@ Set Printing Width 1000000.
 Goal True.
   assert (goal_of_size 1).
   ViaSetoidRewrite.go.
+
   lazymatch goal with
-  | [ |- ?x = _ ]
-    => lazymatch x with
-       | (dlet x' : Z := 1 * (nth_default 0 ?f 0 * nth_default 0 ?g 0) in
-   dlet x'0 : Z := x' + 0 in
-   dlet x'1 : Z := x'0 / 2305843009213693952 in
-   dlet x'2 : Z := x'0 mod 2305843009213693952 in
-   dlet y' : Z := 1 * x'1 in
-   dlet y'0 : Z := 1 * x'2 in
-   dlet x'3 : Z := 1 * (y'0 + 0) in
-   dlet x'4 : Z := 1 * (1 * (y' + 0)) in
-   dlet x'5 : Z := x'3 + (x'4 + 0) in
-   dlet x'6 : Z := x'5 / 2305843009213693952 in
-   dlet x'7 : Z := x'5 mod 2305843009213693952 in
-   dlet x'8 : Z := 1 * x'6 in
-   dlet x'9 : Z := 1 * x'7 in
-   dlet x'10 : Z := 1 * (x'9 + 0) in
-   dlet x'11 : Z := 1 * (1 * (x'8 + 0)) in
-   dlet x'12 : Z := 1 * (x'10 + (x'11 + 0)) in
-   dlet y'1 : Z := 1 * (x'12 + 0) in
-   dlet x'13 : Z := 0 in
-                         [y'1 + (x'13 + 0)])
-         => idtac
-       | _ => fail 0 "Invalid result:" x
-       end
+  | [ |- dlet y' : Z := 1 * (nth_default 0 ?f 0 * nth_default 0 ?g 0) in
+  dlet x' : Z := y' + 0 in
+  dlet x'0 : Z := x' / 2305843009213693952 in
+  dlet x'1 : Z := x' mod 2305843009213693952 in
+  dlet y'0 : Z := 1 * x'0 in
+  dlet y'1 : Z := 1 * x'1 in
+  dlet x'2 : Z := 1 * (y'1 + 0) in
+  dlet x'3 : Z := 1 * (1 * (y'0 + 0)) in
+  dlet x'4 : Z := x'2 + (x'3 + 0) in
+  dlet x'5 : Z := x'4 / 2305843009213693952 in
+  dlet x'6 : Z := x'4 mod 2305843009213693952 in
+  dlet y'2 : Z := 1 * x'5 in
+  dlet y'3 : Z := 1 * x'6 in
+  dlet x'7 : Z := 1 * (y'3 + 0) in
+  dlet x'8 : Z := 1 * (1 * (y'2 + 0)) in
+  dlet y'4 : Z := 1 * (x'7 + (x'8 + 0)) in
+  dlet x'9 : Z := 1 * (y'4 + 0) in
+  dlet x'10 : Z := 0 in
+  [x'9 + (x'10 + 0)] = ?f ] => idtac
+  | _ => fail 0 "Invalid result:" x
+
   end.
 Abort.
 
