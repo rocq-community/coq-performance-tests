@@ -1,7 +1,7 @@
 package "sandbox" (
   directory = "."
   description = "Coq Performance Tests Sandbox"
-  requires = "coq-core.plugins.ltac"
+  requires = "rocq-runtime.plugins.ltac"
   archive(byte) = "sandbox.cma"
   archive(native) = "sandbox.cmxa"
   plugin(byte) = "sandbox.cma"
@@ -10,7 +10,7 @@ package "sandbox" (
 package "reify" (
   directory = "Reify"
   description = "Coq Performance Tests Reify"
-  requires = "coq-core.plugins.ltac"
+  requires = "rocq-runtime.plugins.ltac"
   archive(byte) = "reify.cma"
   archive(native) = "reify.cmxa"
   plugin(byte) = "reify.cma"
