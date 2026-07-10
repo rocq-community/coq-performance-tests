@@ -116,7 +116,7 @@ jobs:
           make copy-pdf copy-doc OUTPUT="doc-build/${{ matrix.COQ_VERSION }}"
           endGroup
     - name: Upload artifact
-      uses: actions/upload-artifact@v4
+      uses: actions/upload-artifact@v6
       with:
         name: ${{ matrix.COQ_VERSION }}
         path: doc-build/${{ matrix.COQ_VERSION }}
@@ -127,7 +127,7 @@ jobs:
         git ls-files --others -z PerformanceExperiments/ src/ plots/ | xargs -0 tar -czvf generated-files.tar.gz
     - name: Upload generated files for debugging if job failed
       if: ${{ failure() }}
-      uses: actions/upload-artifact@v4
+      uses: actions/upload-artifact@v6
       with:
         name: generated-files-${{ matrix.COQ_VERSION }}
         path: generated-files.tar.gz
