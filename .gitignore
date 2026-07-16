@@ -356,6 +356,7 @@ PerformanceExperiments/Reify/OCamlReify.v
 PerformanceExperiments/Sandbox.v
 PerformanceExperiments/sandbox_plugin.ml4
 PerformanceExperiments/sandbox_plugin.mlg
+PerformanceExperiments/META.coq-performance-tests
 plots/generated/
 plots/*.log
 plots/*.svg

@@ -73,6 +73,22 @@ endif
 endif
 endif
 
+# The findlib package holding the ltac plugin was renamed from
+# coq-core.plugins.ltac to rocq-runtime.plugins.ltac when the coq-core
+# libraries were removed (rocq-prover/rocq#21955, first in Rocq >= 9.3).
+# Coq 8.16 through Rocq 9.2 still expose the coq-core name, so detect
+# which one is actually available rather than keying off the version
+# number.  We ask ocamlfind (found via coqc's reported OCAMLFIND, or on
+# PATH) for coq-core.plugins.ltac and use rocq-runtime.plugins.ltac when
+# it is absent.
+ifneq (,$(USE_META))
+PLUGIN_OCAMLFIND := $(shell $(COQBIN)coqc -config 2>/dev/null | sed -n 's/^OCAMLFIND=//p')
+ifeq (,$(PLUGIN_OCAMLFIND))
+PLUGIN_OCAMLFIND := ocamlfind
+endif
+LTAC_PLUGIN_PKG := $(shell "$(PLUGIN_OCAMLFIND)" query coq-core.plugins.ltac >/dev/null 2>&1 && echo coq-core.plugins.ltac || echo rocq-runtime.plugins.ltac)
+endif
+
 COMPATIBILITY_FILES := \
 	Ltac2Compat/Init.v \
 	Ltac2Compat/Array.v \
