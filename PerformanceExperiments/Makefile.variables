@@ -64,9 +64,9 @@ perf-$(ARG__):: $($(ARG__)_PERF_LOGS)
 endef
 
 define makekind_sh
-ARG_SLASH:=$(1)
-ARG_DOT:=$(subst /,.,$(1))
-ARG__:=$(subst /,_,$(1))
+$(eval ARG_SLASH:=$(1))
+$(eval ARG_DOT:=$(subst /,.,$(1)))
+$(eval ARG__:=$(subst /,_,$(1)))
 $(eval $(ARG__)_PERF_LOGS := $(filter $(PERF_DIR)/$(ARG_SLASH)/%.log,$(ALL_PERF_LOGS)))
 $(eval $(ARG__)_PERF_VFILES := $($(ARG__)_PERF_LOGS:.log=.v))
 
@@ -82,9 +82,9 @@ perf-$(ARG__):: $($(ARG__)_PERF_LOGS)
 endef
 
 define makekind_special
-ARG_SLASH:=$(1)
-ARG_DOT:=$(subst /,.,$(1))
-ARG__:=$(subst /,_,$(1))
+$(eval ARG_SLASH:=$(1))
+$(eval ARG_DOT:=$(subst /,.,$(1)))
+$(eval ARG__:=$(subst /,_,$(1)))
 $(eval $(ARG__)_PERF_LOGS := $(filter $(PERF_DIR)/$(ARG_SLASH)/%.log,$(ALL_PERF_LOGS)))
 $(eval $(ARG__)_PERF_VFILES := $($(ARG__)_PERF_LOGS:.log=.v))
 
