@@ -68,3 +68,19 @@ clean::
 	$(HIDE)rm -f $(COMPATIBILITY_FILES)
 .PHONY: clean
 endif
+
+# When we ship a findlib META file, generate it from the .in template so
+# that the ltac plugin package name (coq-core vs rocq-runtime) matches the
+# Coq/Rocq version being built against (see LTAC_PLUGIN_PKG).
+ifneq ($(strip $(USE_META)),)
+$(addsuffix .d,$(COQMF_MLIFILES) $(COQMF_MLFILES) $(COQMF_MLGFILES) $(COQMF_ML4FILES) $(COQMF_MLPACKFILES) $(COQMF_MLLIBFILES)): $(META_FRAGMENT)
+
+$(META_FRAGMENT) : $(META_FRAGMENT).in $(COQ_VERSION_FILE)
+	$(SHOW)'SED $< > $@'
+	$(HIDE)sed 's/@LTAC_PLUGIN_PKG@/$(LTAC_PLUGIN_PKG)/g' $< > $@
+
+clean::
+	$(SHOW)'CLEAN META'
+	$(HIDE)rm -f $(META_FRAGMENT)
+.PHONY: clean
+endif
