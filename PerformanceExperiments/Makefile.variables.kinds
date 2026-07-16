@@ -109,7 +109,11 @@ DISABLED_FILES += $(addsuffix .v,$(QUOTE_KINDS)) \
 DISABLED_KINDS += $(QUOTE_KINDS)
 endif
 
-SH_KINDS :=
+SH_KINDS := \
+	module_type_include_chain \
+	module_type_include_chain_args \
+	module_type_include_chain_prefix \
+	# end of list
 
 SPECIAL_KINDS :=
 
