@@ -4,8 +4,8 @@ From Coq Require Import Morphisms.
 From Coq Require Import Setoid.
 From Coq Require Export ZArith.
 From Coq Require Import List.
-Require Import PerformanceExperiments.Harness.
-Require PerformanceExperiments.Sample.
+Require Import CoqPerformanceTests.PerformanceExperiments.Harness.
+Require CoqPerformanceTests.PerformanceExperiments.Sample.
 Import ListNotations.
 Local Open Scope list_scope. Local Open Scope Z_scope.
 

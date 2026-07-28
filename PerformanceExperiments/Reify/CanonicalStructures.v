@@ -2,7 +2,7 @@
 Require Import Reify.ReifyCommon.
 From Coq Require Import List.
 From Coq Require Import NArith.
-Require Import PerformanceExperiments.Harness.
+Require Import CoqPerformanceTests.PerformanceExperiments.Harness.
 Require Import Reify.BenchmarkExtraUtil.
 Require Import Reify.CanonicalStructuresReifyCommon.
 

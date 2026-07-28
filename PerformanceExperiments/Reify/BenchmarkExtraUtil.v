@@ -1,10 +1,10 @@
 From Coq Require Import List.
 From Coq Require Import NArith.
-Require Import PerformanceExperiments.Sandbox.
+Require Import CoqPerformanceTests.PerformanceExperiments.Sandbox.
 Require Import Reify.ReifyCommon.
 Require Import Reify.PHOASUtil.
 Require Export Reify.BenchmarkUtil. (* don't qualify BenchmarkUtil.big when naming it *)
-Require PerformanceExperiments.Harness.
+Require CoqPerformanceTests.PerformanceExperiments.Harness.
 Require Reify.ParametricityCommon.
 Local Open Scope N_scope.
 Local Open Scope list_scope.

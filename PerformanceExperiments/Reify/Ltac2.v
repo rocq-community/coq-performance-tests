@@ -1,7 +1,7 @@
 (** * Reification by Ltac2 *)
 Require Import Reify.ReifyCommon.
 From Coq Require Import NArith.
-Require Import PerformanceExperiments.Harness.
+Require Import CoqPerformanceTests.PerformanceExperiments.Harness.
 Require Import Reify.Ltac2Reify.
 Require Import Reify.BenchmarkExtraUtil.
 Global Open Scope N_scope.

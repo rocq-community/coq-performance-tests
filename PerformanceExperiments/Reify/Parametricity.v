@@ -1,7 +1,7 @@
 (** * Reification by parametricity *)
 Require Import Reify.ReifyCommon.
 From Coq Require Import NArith.
-Require Import PerformanceExperiments.Harness.
+Require Import CoqPerformanceTests.PerformanceExperiments.Harness.
 Require Import Reify.ParametricityCommon.
 Require Import Reify.BenchmarkExtraUtil.
 Global Open Scope N_scope.

@@ -1,4 +1,4 @@
-Require Import PerformanceExperiments.Harness.
+Require Import CoqPerformanceTests.PerformanceExperiments.Harness.
 Definition Let_In {A P} (v : A) (f : forall x : A, P x) : P v
 := let x := v in f x.
 

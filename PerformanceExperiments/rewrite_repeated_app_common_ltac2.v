@@ -1,13 +1,13 @@
 From Coq Require Import Setoid Morphisms.
-Require Export PerformanceExperiments.rewrite_repeated_app_common.
+Require Export CoqPerformanceTests.PerformanceExperiments.rewrite_repeated_app_common.
 Require Import Ltac2.Ltac2.
 Require Import Ltac2.Constr.
 Require Import Ltac2.Control.
 Require Ltac2.Notations.
 Require Ltac2.Array.
 Require Ltac2.Int.
-Require PerformanceExperiments.Ltac2Compat.Array.
-Require Import PerformanceExperiments.Ltac2Compat.Constr.
+Require CoqPerformanceTests.PerformanceExperiments.Ltac2Compat.Array.
+Require Import CoqPerformanceTests.PerformanceExperiments.Ltac2Compat.Constr.
 
 Module Import WithLtac2.
   Import Ltac2.Notations.

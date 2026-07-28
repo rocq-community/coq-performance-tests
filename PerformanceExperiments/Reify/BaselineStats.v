@@ -2,7 +2,7 @@ Require Import Reify.Common.
 Require Import Reify.BenchmarkUtil.
 Require Import Reify.PHOAS.
 Require Import Reify.BenchmarkExtraUtil.
-Require Import PerformanceExperiments.Harness.
+Require Import CoqPerformanceTests.PerformanceExperiments.Harness.
 
 Inductive partial_red_kind := cbv | lazy | simpl | cbn.
 Inductive full_red_kind := vm_compute | native_compute.

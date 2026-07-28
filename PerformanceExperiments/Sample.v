@@ -9,7 +9,7 @@ From Coq Require Import NArith.
 From Coq Require Import ZArith.
 From Coq Require Import Arith.
 From Coq Require Import List.
-Require Import PerformanceExperiments.LetIn.
+Require Import CoqPerformanceTests.PerformanceExperiments.LetIn.
 Import ListNotations.
 Local Open Scope list_scope.
 Local Set Implicit Arguments.

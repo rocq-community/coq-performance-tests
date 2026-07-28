@@ -2,7 +2,7 @@
 For not regressing on COQBUG(https://github.com/coq/coq/issues/18770) *)
 From Coq Require Import ZArith List Zify.
 Import ListNotations.
-Require Import PerformanceExperiments.Harness.
+Require Import CoqPerformanceTests.PerformanceExperiments.Harness.
 
 Global Open Scope Z_scope.
 

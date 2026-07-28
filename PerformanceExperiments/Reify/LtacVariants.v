@@ -1,6 +1,6 @@
 (** * Ltac-based reification, using uncurrying to reucurse under binders *)
 From Coq Require Import NArith.
-Require Import PerformanceExperiments.Harness.
+Require Import CoqPerformanceTests.PerformanceExperiments.Harness.
 Require Import Reify.BenchmarkExtraUtil.
 Require
   Reify.LtacPrimUncurry

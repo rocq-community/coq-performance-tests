@@ -1,5 +1,5 @@
 (** We test memory usage of typeclass resification of let-binders to HOAS *)
-Require Import PerformanceExperiments.Harness.
+Require Import CoqPerformanceTests.PerformanceExperiments.Harness.
 Generalizable All Variables.
 Axiom Let_In : forall {A P} (v : A) (f : forall x : A, P x), P v.
 Fixpoint nested_lets (n : nat) (init : nat) : nat
