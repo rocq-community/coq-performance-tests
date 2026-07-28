@@ -1,7 +1,7 @@
 (** * Typeclass-based reification *)
 Require Import Reify.ReifyCommon.
 From Coq Require Import NArith.
-Require Import PerformanceExperiments.Harness.
+Require Import CoqPerformanceTests.PerformanceExperiments.Harness.
 Require Import Reify.BenchmarkExtraUtil.
 
 Module TypeClasses.

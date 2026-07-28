@@ -1,4 +1,4 @@
-Require Import PerformanceExperiments.Harness.
+Require Import CoqPerformanceTests.PerformanceExperiments.Harness.
 Fixpoint mkgoal_nat (n : nat) : Prop
   := match n with
      | O => True /\ True -> True

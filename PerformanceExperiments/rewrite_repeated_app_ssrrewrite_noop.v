@@ -1,6 +1,6 @@
 From Coq Require Export ZArith.
-Require Import PerformanceExperiments.Harness.
-Require Export PerformanceExperiments.rewrite_repeated_app_common.
+Require Import CoqPerformanceTests.PerformanceExperiments.Harness.
+Require Export CoqPerformanceTests.PerformanceExperiments.rewrite_repeated_app_common.
 
 Definition args_of_size (s : size) : list nat
   := match s with

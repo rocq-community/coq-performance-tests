@@ -1,5 +1,5 @@
 From Coq Require Import ZArith.
-Require Import PerformanceExperiments.Harness.
+Require Import CoqPerformanceTests.PerformanceExperiments.Harness.
 Global Open Scope Z_scope.
 Set Universe Polymorphism.
 Record prod A B := pair { fst : A ; snd : B }.

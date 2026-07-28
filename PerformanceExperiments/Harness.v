@@ -5,7 +5,7 @@ From Coq Require Import Bool.
 From Coq Require Import Mergesort.
 From Coq Require Export List.
 From Coq Require Export ZArith.
-Require Import PerformanceExperiments.Sandbox.
+Require Import CoqPerformanceTests.PerformanceExperiments.Sandbox.
 Export ListNotations.
 
 Global Set Printing Width 1000.

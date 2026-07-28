@@ -1,6 +1,6 @@
 (** * Ltac-based reification, using uncurrying to reucurse under binders *)
 Require Import Reify.ReifyCommon.
-Require Import PerformanceExperiments.PrimitiveProd.
+Require Import CoqPerformanceTests.PerformanceExperiments.PrimitiveProd.
 Import PrimitiveProd.Primitive.
 Import PrimitiveProd.Primitive.Notations.
 

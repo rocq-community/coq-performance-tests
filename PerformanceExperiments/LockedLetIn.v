@@ -1,5 +1,5 @@
-Require Import PerformanceExperiments.LetIn.
-Require Import PerformanceExperiments.Lock.
+Require Import CoqPerformanceTests.PerformanceExperiments.LetIn.
+Require Import CoqPerformanceTests.PerformanceExperiments.Lock.
 
 Reserved Notation "'nllet' x := v 'in' f"
          (at level 200, f at level 200,

@@ -1,6 +1,6 @@
-Require Import PerformanceExperiments.Harness.
-Require Import PerformanceExperiments.HarnessTimeAbstract.
-Require Export PerformanceExperiments.rewrite_repeated_app_common_ltac2.
+Require Import CoqPerformanceTests.PerformanceExperiments.Harness.
+Require Import CoqPerformanceTests.PerformanceExperiments.HarnessTimeAbstract.
+Require Export CoqPerformanceTests.PerformanceExperiments.rewrite_repeated_app_common_ltac2.
 
 Definition args_of_size (s : size) : list nat
   := match s with

@@ -8,8 +8,8 @@ Import Ltac2.Init.
 Import Ltac2.Notations.
 Require Ltac2Compat.Ltac2.
 Import Ltac2Compat.Init.
-Require PerformanceExperiments.Ltac2.Util.Constr.
-Require PerformanceExperiments.Ltac2.Util.Ident.
+Require CoqPerformanceTests.PerformanceExperiments.Ltac2.Util.Constr.
+Require CoqPerformanceTests.PerformanceExperiments.Ltac2.Util.Ident.
 
 Module Ltac2.
   (** This file contains the Ltac2 version of Ltac1 reification, from

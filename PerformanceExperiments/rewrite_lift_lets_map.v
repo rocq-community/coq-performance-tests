@@ -4,9 +4,9 @@ From Coq Require Import QArith.
 From Coq Require Import Morphisms.
 From Coq Require Import Setoid.
 From Coq Require Import List.
-Require Import PerformanceExperiments.Harness.
-Require PerformanceExperiments.Sample.
-Require Export PerformanceExperiments.LetIn PerformanceExperiments.ListRectInstances.
+Require Import CoqPerformanceTests.PerformanceExperiments.Harness.
+Require CoqPerformanceTests.PerformanceExperiments.Sample.
+Require Export CoqPerformanceTests.PerformanceExperiments.LetIn CoqPerformanceTests.PerformanceExperiments.ListRectInstances.
 Import ListNotations.
 Local Open Scope list_scope. Local Open Scope Z_scope.
 
