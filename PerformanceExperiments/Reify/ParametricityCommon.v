@@ -2,8 +2,13 @@
 Require Import Reify.ReifyCommon.
 
 Ltac Reify x :=
-  let rx := lazymatch (eval pattern (nat : Type), O, S, Nat.mul, (@Let_In nat nat) in x) with
-            | ?rx _ _ _ _ _ => rx end in
+  let rx := lazymatch (eval pattern O, S, Nat.mul, (@Let_In nat nat) in x) with
+            | ?rx _ _ _ _ => rx end in
+  let rx := constr:(ltac:(let y := fresh in
+                           pose (y := rx); change nat with (nat : Type) in (value of y);
+                           lazymatch goal with y := ?v |- _ => exact v end)) in
+  let rx := lazymatch (eval pattern (nat : Type) in rx) with
+            | ?rx _ => rx end in
   let __ := type of rx in (* propagate universe constraints, c.f., https://github.com/coq/coq/issues/5996 *)
   constr:(fun var : Type => rx (@expr var) (@NatO var) (@NatS var) (@NatMul var)
                                (fun x' f' => @LetIn var x' (fun v => f' (@Var var v)))).
